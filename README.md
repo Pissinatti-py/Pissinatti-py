@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/convergence-dark.svg">
+  <img src="assets/convergence-light.svg" width="100%" alt="Two strands — neural networks from 2020 and backend from 2022 — converging into a single line by 2026">
+</picture>
+
 ### Marcus Vinicius — *Chuck*
 
 Backend engineer at [@Samplemed](https://github.com/Samplemed). I build Python services — FastAPI, Django, Postgres, Redis — and reach for Rust when latency is the whole point.
