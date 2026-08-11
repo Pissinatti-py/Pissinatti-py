@@ -3,8 +3,8 @@
   <g fill="none" stroke="#6E7681" stroke-width="1.25" stroke-linecap="round">
     <circle cx="196" cy="48" r="3"/>
     <circle cx="196" cy="128" r="3"/>
-    <path d="M 204 48 H 424 C 494 48, 494 88, 564 88"/>
-    <path d="M 204 128 H 424 C 494 128, 494 88, 564 88"/>
+    <path d="M 204 48 H 424 C 494 48, 530 88, 564 88"/>
+    <path d="M 204 128 H 424 C 494 128, 530 88, 564 88"/>
   </g>
   <path d="M 564 88 H 748" fill="none" stroke="#E0A93B" stroke-width="1.5" stroke-linecap="round"/>
   <circle cx="756" cy="88" r="4.5" fill="#E0A93B"/>
