@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/convergence-dark.svg">
-  <img src="assets/convergence-light.svg" width="100%" alt="A braided timeline from 2020 to 2026: a models strand forks into a backend trunk in 2021, a services branch splits off in 2022 and merges back, the models strand rejoins at 2026, and the single line fades toward what comes next">
+  <img src="assets/convergence-light.svg" width="100%" alt="A braided timeline from 2019 to 2026: a backend trunk starts with freelance Django, a models strand forks off in 2020 and crosses back at the predictive module and a LangChain agent, a services branch splits off at FastAPI in 2022 and merges back in 2026, everything converges at now, and one line fades toward what comes next">
 </picture>
 
 ```
@@ -61,6 +61,8 @@ Python is the trade. Rust comes out when latency is the whole point. I came to p
 #### Impact
 
 - **800+ pull requests merged** into one production codebase since 2022, and a few hundred reviewed for the same team.
+- **6 minutes down to 45 seconds** for risk calculation and reporting, moved onto Celery and AWS Lambda pipelines.
+- **A LangChain agent in production** inside that platform, wired to its internal data sources.
 - **Own the hard parts** of a multi-tenant platform: per-client databases, JWT + MFA + OAuth2 login, the dynamic questionnaire engine, Celery pipelines.
 - **14k requests a second** on a webhook front-end written in Rust, so provider retry storms never reach the app.
 - **Open pull requests upstream** to [Apache Airflow](https://github.com/apache/airflow/pull/71719) and [OpenTelemetry Python](https://github.com/open-telemetry/opentelemetry-python-contrib/pull/4964).

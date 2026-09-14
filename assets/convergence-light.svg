@@ -1,30 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 236" width="840" height="236" role="img" aria-labelledby="t">
-  <title id="t">A braided timeline from 2020 to 2026: a models strand forks into a backend trunk in 2021, a services branch splits off in 2022 and merges back, the models strand rejoins at 2026, and the single line fades toward what comes next</title>
+  <title id="t">A braided timeline from 2019 to 2026: a backend trunk starts with freelance Django, a models strand forks off in 2020 and crosses back at the predictive module and a LangChain agent, a services branch splits off at FastAPI in 2022 and merges back in 2026, everything converges at now, and one line fades toward what comes next</title>
   <defs>
     <linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="650" y1="0" x2="820" y2="0">
       <stop offset="0" stop-color="#C9922E" stop-opacity="1"/>
       <stop offset="1" stop-color="#C9922E" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" fill="#57606A" fill-opacity="0.5" letter-spacing="0.06em"><text x="70" y="230" text-anchor="middle">2020</text><text x="154" y="230" text-anchor="middle">2021</text><text x="238" y="230" text-anchor="middle">2022</text><text x="322" y="230" text-anchor="middle">2023</text><text x="406" y="230" text-anchor="middle">2024</text><text x="490" y="230" text-anchor="middle">2025</text><text x="574" y="230" text-anchor="middle">2026</text></g>
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" fill="#57606A" fill-opacity="0.5" letter-spacing="0.06em"><text x="60" y="230" text-anchor="middle">2019</text><text x="134" y="230" text-anchor="middle">2020</text><text x="208" y="230" text-anchor="middle">2021</text><text x="282" y="230" text-anchor="middle">2022</text><text x="356" y="230" text-anchor="middle">2023</text><text x="430" y="230" text-anchor="middle">2024</text><text x="504" y="230" text-anchor="middle">2025</text><text x="578" y="230" text-anchor="middle">2026</text></g>
   <g fill="none" stroke="#6E7781" stroke-width="1.25" stroke-linecap="round">
-    <!-- models: burst, dormant, awake, merge into now -->
-    <path d="M 147 52 H 164"/>
-    <path d="M 164 52 H 600" stroke-dasharray="2 5"/>
+    <!-- backend trunk, 2019 to now -->
+    <path d="M 81 120 H 650"/>
+    <!-- 2020: models strand forks off the trunk; burst, then dormant -->
+    <path d="M 160 120 C 186 120, 176 52, 202 52"/>
+    <path d="M 202 52 H 217"/>
+    <path d="M 217 52 H 600" stroke-dasharray="2 5"/>
+    <!-- models touch the trunk: predictive module (2023), LangChain agent (2025) -->
+    <path d="M 332 52 C 358 52, 345 120, 371 120" stroke-dasharray="2 5"/>
+    <path d="M 487 52 C 513 52, 500 120, 526 120" stroke-dasharray="2 5"/>
+    <!-- 2026: models awake and merge into now -->
     <path d="M 600 52 C 626 52, 624 120, 650 120"/>
-    <!-- 2021: models fork into backend -->
-    <path d="M 164 52 C 190 52, 178 120, 204 120"/>
-    <!-- backend trunk -->
-    <path d="M 204 120 H 650"/>
-    <!-- 2023: models touch the trunk (predictive module) -->
-    <path d="M 300 52 C 326 52, 313 120, 339 120" stroke-dasharray="2 5"/>
-    <!-- 2022: services branch, back in 2026 -->
-    <path d="M 270 120 C 296 120, 284 188, 310 188"/>
-    <path d="M 310 188 H 540"/>
-    <path d="M 540 188 C 566 188, 554 120, 580 120"/>
+    <!-- 2022: services branch at FastAPI, back in 2026 -->
+    <path d="M 300 120 C 326 120, 314 188, 340 188"/>
+    <path d="M 340 188 H 548"/>
+    <path d="M 548 188 C 574 188, 562 120, 588 120"/>
   </g>
-  <g fill="#6E7781"><circle cx="147" cy="52" r="3"/><circle cx="156" cy="52" r="3"/><circle cx="164" cy="52" r="3"/><circle cx="600" cy="52" r="3"/><circle cx="204" cy="120" r="3"/><circle cx="298" cy="120" r="3"/><circle cx="339" cy="120" r="3"/><circle cx="398" cy="120" r="3"/><circle cx="448" cy="120" r="3"/><circle cx="580" cy="120" r="3"/><circle cx="609" cy="120" r="3"/><circle cx="310" cy="188" r="3"/><circle cx="524" cy="188" r="3"/></g>
-  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#57606A" letter-spacing="0.06em"><text x="141" y="38" text-anchor="end">classifiers</text><text x="156" y="26" text-anchor="middle">CNN · RNN</text><text x="170" y="38" text-anchor="start">self-organising map</text><text x="606" y="38" text-anchor="end">LangGraph agents · RAG</text><text x="262" y="140" text-anchor="end">Django storefront</text><text x="318" y="100" text-anchor="end">joins Samplemed</text><text x="348" y="86" text-anchor="start">predictive module</text><text x="398" y="154" text-anchor="middle">multi-tenant · MFA</text><text x="448" y="100" text-anchor="middle">Celery pipelines</text><text x="586" y="86" text-anchor="end">auth-boilerplate</text><text x="615" y="154" text-anchor="start">Rust webhooks · 14k req/s</text><text x="310" y="208" text-anchor="middle">FastAPI · Celery</text><text x="524" y="208" text-anchor="middle">fastapi-boilerplate</text></g>
+  <g fill="#6E7781"><circle cx="202" cy="52" r="3"/><circle cx="211" cy="52" r="3"/><circle cx="217" cy="52" r="3"/><circle cx="600" cy="52" r="3"/><circle cx="81" cy="120" r="3"/><circle cx="229" cy="120" r="3"/><circle cx="289" cy="120" r="3"/><circle cx="335" cy="120" r="3"/><circle cx="371" cy="120" r="3"/><circle cx="415" cy="120" r="3"/><circle cx="471" cy="120" r="3"/><circle cx="526" cy="120" r="3"/><circle cx="588" cy="120" r="3"/><circle cx="609" cy="120" r="3"/><circle cx="340" cy="188" r="3"/><circle cx="534" cy="188" r="3"/></g>
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#57606A" letter-spacing="0.06em"><text x="196" y="38" text-anchor="end">classifiers</text><text x="211" y="26" text-anchor="middle">CNN · RNN</text><text x="223" y="38" text-anchor="start">self-organising map</text><text x="606" y="38" text-anchor="end">LangGraph agents · RAG</text><text x="341" y="86" text-anchor="end">joins Samplemed</text><text x="380" y="86" text-anchor="start">predictive module</text><text x="81" y="100" text-anchor="middle">freelance Django</text><text x="500" y="100" text-anchor="end">6 min → 45 s</text><text x="305" y="140" text-anchor="end">MedMap · health data</text><text x="415" y="140" text-anchor="middle">multi-tenant · MFA</text><text x="600" y="140" text-anchor="start">auth-boilerplate</text><text x="229" y="154" text-anchor="middle">Zebra Câmbio · fintech</text><text x="532" y="154" text-anchor="end">LangChain agent · prod</text><text x="615" y="154" text-anchor="start">Rust webhooks · 14k req/s</text><text x="340" y="208" text-anchor="middle">Rebel Thinking · FastAPI</text><text x="534" y="208" text-anchor="middle">fastapi-boilerplate</text></g>
   <!-- now and the future -->
   <path d="M 650 120 H 820" fill="none" stroke="url(#fade)" stroke-width="1.5" stroke-linecap="round"/>
   <circle cx="650" cy="120" r="4.5" fill="#C9922E"/>
