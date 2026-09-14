@@ -22,16 +22,40 @@ Python is the trade. Rust comes out when latency is the whole point. I came to p
 
 ---
 
-#### Six years, one line
+#### Six stages, one loop
 
 ```
-2020 ────── 2021 ────── 2022 ────── 2023 ────── 2024 ────── 2025 ────── 2026
-  │           │           │                       │           │           │
-neural      Django      joins Samplemed         live job    Rust        LLM agents
-nets and    storefront  Sample360: multi-       progress,   webhooks    without a
-self-       and first   tenant Django, auth,    Prometheus  at 14k      cloud vendor,
-organising  stars       tenant isolation,       + Grafana   req/s       PRs upstream
-maps                    Celery pipelines
+    ╔═══════════════════╗     ╔═══════════════════╗     ╔═══════════════════╗
+ ┌─→║ 01 · 2020 → 2021  ║     ║ 02 · 2021 → 2022  ║     ║ 03 · 2022 → 2025  ║
+ │  ║ NEURAL NETWORKS   ║     ║ DJANGO & THE WEB  ║     ║ SAMPLEMED         ║
+ │  ║ █░░░░░ learning   ║ ──→ ║ ██░░░░ shipping   ║ ──→ ║ ████░░ owning     ║
+ │  ╟───────────────────╢     ╟───────────────────╢     ╟───────────────────╢
+ │  ║ image and tabular ║     ║ Django-ecommerce  ║     ║ multi-tenant, one ║
+ │  ║ classifiers, CNN  ║     ║ storefront    ★5  ║     ║ Postgres / client ║
+ │  ║ on CIFAR-10, RNN  ║     ║ Management-       ║     ║ JWT + MFA + OAuth ║
+ │  ║ on stock prices,  ║     ║ Sistem        ★3  ║     ║ questionnaire     ║
+ │  ║ a self-organising ║     ║ first DRF API,    ║     ║ engine · Celery   ║
+ │  ║ map on credit     ║     ║ first FastAPI +   ║     ║ 800+ PRs merged   ║
+ │  ║ fraud             ║     ║ Docker + Celery   ║     ║ 200+ reviewed     ║
+ │  ╚═══════════════════╝     ╚═══════════════════╝     ╚═════════╤═════════╝
+ │                                                                │
+ │           ┌────────────────────────────────────────────────────┘
+ │           │
+ │  ╔═════════╧═════════╗     ╔═══════════════════╗     ╔═══════════════════╗
+ │  ║ 04 · 2025 → 2026  ║     ║ 05 · 2026         ║     ║ 06 · NOW          ║
+ │  ║ FOUNDATIONS       ║     ║ RUST & UPSTREAM   ║     ║ LLM AGENTS        ║
+ │  ║ █████░ building   ║ ──→ ║ █████░ giving back║ ──→ ║ ██████ converging ║
+ │  ╟───────────────────╢     ╟───────────────────╢     ╟───────────────────╢
+ │  ║ fastapi-          ║     ║ webhook-ingester  ║     ║ finance-ai-       ║
+ │  ║ boilerplate   ★1  ║     ║ 14k req/s, axum   ║     ║ assistant: agent  ║
+ │  ║ auth-boilerplate  ║     ║ apache/airflow    ║     ║ with tools, RAG,  ║
+ │  ║ observability     ║     ║ PR #71719 (open)  ║     ║ semantic cache    ║
+ │  ║ demo: SSE +       ║     ║ opentelemetry-    ║     ║ market-insights:  ║
+ │  ║ Prometheus        ║     ║ python PR #4964   ║     ║ a local LLM       ║
+ │  ║ portfolio     ★1  ║     ║ (open)            ║     ║ curates the feed  ║
+ │  ╚═══════════════════╝     ╚═══════════════════╝     ╚═════════╤═════════╝
+ │                                                                │
+ └─── the 2020 strand, back in the loop: every stage feeds NOW ────┘
 ```
 
 #### Impact
