@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/convergence-dark.svg">
-  <img src="assets/convergence-light.svg" width="100%" alt="Two strands — neural networks from 2020 and backend from 2022 — converging into a single line by 2026">
+  <img src="assets/convergence-light.svg" width="100%" alt="Two strands, models from 2020 and backend from 2021, dotted with milestones and converging into one line at 2026 that fades toward what comes next">
 </picture>
 
 ```
