@@ -1,8 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/convergence-dark.svg">
-  <img src="assets/convergence-light.svg" width="100%" alt="A braided timeline from 2019 to 2026: a backend trunk starts with freelance Django, a models strand forks off in 2020 and crosses back at the predictive module and a LangChain agent, a services branch splits off at FastAPI in 2022 and merges back in 2026, everything converges at now, and one line fades toward what comes next">
-</picture>
-
 ```
 ██████╗ ██╗███████╗███████╗██╗███╗   ██╗ █████╗ ████████╗████████╗██╗
 ██╔══██╗██║██╔════╝██╔════╝██║████╗  ██║██╔══██╗╚══██╔══╝╚══██╔══╝██║
@@ -12,11 +7,14 @@
 ╚═╝     ╚═╝╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝
 ```
 
-### Marcus Vinicius
+<sub>Marcus Vinicius Pissinatti · backend engineer at <a href="https://github.com/Samplemed">@Samplemed</a> · Chuck to almost everyone, Marcus when the bug is serious.</sub>
 
-<sub>Chuck to almost everyone. Marcus if the bug is serious.</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/convergence-dark.svg">
+  <img src="assets/convergence-light.svg" width="100%" alt="A braided timeline from 2019 to 2026: a backend trunk starts with freelance Django, a models strand forks off in 2020 and crosses back at the predictive module and a LangChain agent, a services branch splits off at FastAPI in 2022 and merges back in 2026, everything converges at now, and one line fades toward what comes next">
+</picture>
 
-Backend engineer at [@Samplemed](https://github.com/Samplemed). For four years I have been one of the main hands behind Sample360, a health platform that insurers and underwriters use every day: hundreds of merged pull requests and code reviews on a single production codebase, from tenant isolation and login to the questionnaire engine and the background pipelines.
+For four years I have been one of the main hands behind Sample360, a health platform that insurers and underwriters use every day: hundreds of merged pull requests and code reviews on a single production codebase, from tenant isolation and login to the questionnaire engine and the background pipelines.
 
 Python is the trade. Rust comes out when latency is the whole point. I came to programming for neural networks, stayed for the backend, and the two have met again: most of what I build now has a model somewhere in the pipeline.
 
