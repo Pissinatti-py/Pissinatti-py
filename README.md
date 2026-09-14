@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/convergence-dark.svg">
-  <img src="assets/convergence-light.svg" width="100%" alt="Two strands, models from 2020 and backend from 2021, dotted with milestones and converging into one line at 2026 that fades toward what comes next">
+  <img src="assets/convergence-light.svg" width="100%" alt="A braided timeline from 2020 to 2026: a models strand forks into a backend trunk in 2021, a services branch splits off in 2022 and merges back, the models strand rejoins at 2026, and the single line fades toward what comes next">
 </picture>
 
 ```
